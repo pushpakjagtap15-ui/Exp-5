@@ -106,3 +106,6 @@ Database records
 Configuration files
 
 Conclusion
+Sets efficiently handle unique data and support mathematical operations, making them useful for data processing tasks.
+Dictionaries provide efficient storage and retrieval of data using keys, making them essential for real-world applications.
+
