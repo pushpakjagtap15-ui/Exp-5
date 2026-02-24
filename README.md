@@ -46,55 +46,7 @@ A **dictionary** is an unordered collection of key-value pairs. Each key must be
 - **Unique Keys:** Each key acts as a unique identifier  
 - **Modifiable Values:** Values associated with keys can be updated or changed  
 
-### Syntax
-```python
-dictionary = {key: value}
-Dictionaries are widely used in real-life applications such as student records, phone books, and configuration data.
 
-Practical Implementation
-Set Operations
-python
-# Set creation
-set1 = {1, 2, 3, 4}
-set2 = {3, 4, 5, 6}
-
-# Union
-print(set1 | set2)   # {1, 2, 3, 4, 5, 6}
-
-# Intersection
-print(set1 & set2)   # {3, 4}
-
-# Difference
-print(set1 - set2)   # {1, 2}
-
-# Symmetric Difference
-print(set1 ^ set2)   # {1, 2, 5, 6}
-Dictionary Operations
-python
-# Dictionary creation
-student = {"Name": "Pushpak", "PRN": 25070123148, "Branch": "E&TC"}
-
-# Access
-print(student["Name"])   # Pushpak
-
-# Insertion
-student["Marks"] = 85
-
-# Deletion
-del student["Branch"]
-
-# Update
-student["Marks"] = 90
-
-# Methods
-print(student.keys())    # dict_keys(['Name', 'PRN', 'Marks'])
-print(student.values())  # dict_values(['Pushpak', 25070123148, 90])
-Applications of Set
-Removing duplicate records
-
-Membership testing
-
-Mathematical computations
 
 Applications of Dictionary
 Student information systems
